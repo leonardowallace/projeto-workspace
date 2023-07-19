@@ -82,6 +82,12 @@ main{
     border-radius: 12px;
     border: 2px solid var(--cor5);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+    transition-duration: 0.5s;
+}
+
+#container > div:hover{
+    width: 100px;
+    height: 100px;
 }
 
 div p{
@@ -131,6 +137,5 @@ footer a:hover{
 
 .rodape{
     display: block;
-    margin: auto;
-    margin-bottom: 10px;
+    padding: 10px
 }
