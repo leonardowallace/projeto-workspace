@@ -24,9 +24,8 @@ header{
     padding-top: 40px ;
 }
 
-header img{
+.logo{
     width: 50px;
-    margin-top: -20px;
     background-color: white;
     border-radius: 50%;
 }
@@ -86,8 +85,7 @@ main{
 }
 
 #container > div:hover{
-    width: 100px;
-    height: 100px;
+    background-color: var(--cor5);
 }
 
 div p{
@@ -104,6 +102,10 @@ div a{
 div img{
     display: block;
     margin: auto;
+}
+
+.office{
+    width: 45px;
 }
 
 iframe{
