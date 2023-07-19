@@ -113,6 +113,7 @@ footer{
     color: white;
     text-align: center;
     font-weight: bold;
+   
 }
 
 footer a{
@@ -131,4 +132,5 @@ footer a:hover{
 .rodape{
     display: block;
     margin: auto;
+    margin-bottom: 10px;
 }
