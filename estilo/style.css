@@ -23,14 +23,15 @@ header{
     padding-top: 40px ;
 }
 
-img{
+header img{
     width: 50px;
     margin-top: -20px;
     background-color: white;
     border-radius: 50%;
 }
 
-header >h1{
+header >h1 > a{
+        text-decoration: none;
         margin-bottom: 20px;
         color: var(--cor5);
         font-size: 4vw;
@@ -40,7 +41,7 @@ header >h1{
 nav{
     background-color: var(--cor2);
     padding: 10px;
-    box-shadow:0px 7px 7px rgba(0, 0, 0, 0.459); ;
+    box-shadow:0px 7px 7px rgba(0, 0, 0, 0.459);
 }
 
 nav > a{
@@ -50,6 +51,7 @@ nav > a{
     font-weight: bold;
     border-radius: 5px;
     transition-duration: 0.5s;
+    text-align: center;
 }
 
 nav > a:hover{
@@ -64,14 +66,43 @@ main{
     transform: translate(-50% -50%);
 }
 
-div{
+#container{
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#container > div{
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     padding: 20px;
-    margin: 10px 20px;
+    margin: 10px;
     background-color: white;
     border-radius: 12px;
     border: 2px solid var(--cor5);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+div p{
+    padding-top: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+}
+
+div img{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    width: 90vw;
+    height: 70vh;
+    margin: 20px auto;
+    border-radius: 10px;
 }
