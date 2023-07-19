@@ -105,6 +105,7 @@ iframe{
     width: 90vw;
     height: 74vh;
     margin: 20px auto;
+    border: 1px solid var(--cor5);
     border-radius: 10px;
 }
 
