@@ -141,3 +141,22 @@ footer a:hover{
     display: block;
     padding: 10px
 }
+
+ul{
+    margin: 30px 87px;
+}
+
+li{
+    display: inline-block;
+    background-color: var(--cor5);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+    text-shadow: 1px 1px 0px black;
+}
