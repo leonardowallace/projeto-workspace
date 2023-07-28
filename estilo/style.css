@@ -109,6 +109,7 @@ div img{
 }
 
 iframe{
+    background-color: white;
     display: block;
     width: 90vw;
     height: 90vh;
